@@ -14,18 +14,18 @@ To use you need to
 minimal example:
 
 <pre><code>
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>ZoteroPageSort</title>
-</head>
-<body>
-<p id="zoteroPageSort"></p>
-<script src="zoteroPageSort.js"></script>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;ZoteroPageSort&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p id="zoteroPageSort"&gt;&lt;/p&gt;
+&lt;script src="zoteroPageSort.js"&gt;&lt;/script&gt;
+&lt;script&gt;
 zoteroPageSort("8U86CMSC", "firstPage", "groups","430843");
-</script>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
