@@ -22,7 +22,7 @@ minimal example:
 &lt;/head&gt;
 &lt;body&gt;
 &lt;p id="zoteroPageSort"&gt;&lt;/p&gt;
-&lt;script src="zoteroPageSort.js"&gt;&lt;/script&gt;
+&lt;script src="/link/to/your/zoteroPageSort.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 zoteroPageSort("8U86CMSC", "firstPage", "groups","430843");
 &lt;/script&gt;
