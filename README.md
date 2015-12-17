@@ -13,7 +13,7 @@ To use you need to
 
 minimal example:
 
-
+<pre><code>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,3 +28,4 @@ zoteroPageSort("8U86CMSC", "firstPage", "groups","430843");
 </script>
 </body>
 </html>
+</code></pre>
