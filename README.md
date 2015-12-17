@@ -14,7 +14,7 @@ To use you need to
 minimal example:
 
 
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -27,4 +27,4 @@ minimal example:
 zoteroPageSort("8U86CMSC", "firstPage", "groups","430843");
 </script>
 </body>
-</html>`
+</html>
