@@ -56,8 +56,10 @@ function zoteroPageSort(key, sortBy, usergroup, id){
 
       //display the result in #zoteroPageSort
       for(i=0;i<data.length;i++){
+        if(data[i].data.pages != 0){
         //document.getElementById("zoteroPageSort").innerHTML = document.getElementById("zoteroPageSort").innerHTML+"Titre : <a href=\""+data[i].data.url+"\">"+data[i].data.title+"</a><br>Auteur(s) : "+data[i].data.authors+"<br>pages : "+data[i].data.pages+"<br><br>";
         document.getElementById("zoteroPageSort").innerHTML = document.getElementById("zoteroPageSort").innerHTML+data[i].data.authors+", <a href=\""+data[i].data.url+"\">"+data[i].data.title+"</a>, p. "+data[i].data.pages+".<br><br>";
+        }
       }
     }
   };
