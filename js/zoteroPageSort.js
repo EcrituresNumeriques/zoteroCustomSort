@@ -26,8 +26,8 @@ function zoteroPageSort(key, sortBy, usergroup, id){
           data[i].data.authors = "";
           for(j=0;j<data[i].data.creators.length;j++){
             if(data[i].data.creators[j].creatorType == "author"){
-              if(j>0){data[i].data.authors += ", ";}
               data[i].data.authors += data[i].data.creators[j].firstName+" "+data[i].data.creators[j].lastName;
+              data[i].data.authors += ", ";
             }
           }
         }
@@ -58,7 +58,7 @@ function zoteroPageSort(key, sortBy, usergroup, id){
       for(i=0;i<data.length;i++){
         if(data[i].data.pages != 0){
         //document.getElementById("zoteroPageSort").innerHTML = document.getElementById("zoteroPageSort").innerHTML+"Titre : <a href=\""+data[i].data.url+"\">"+data[i].data.title+"</a><br>Auteur(s) : "+data[i].data.authors+"<br>pages : "+data[i].data.pages+"<br><br>";
-        document.getElementById("zoteroPageSort").innerHTML = document.getElementById("zoteroPageSort").innerHTML+data[i].data.authors+", <a href=\""+data[i].data.url+"\">"+data[i].data.title+"</a>, p. "+data[i].data.pages+".<br><br>";
+        document.getElementById("zoteroPageSort").innerHTML = document.getElementById("zoteroPageSort").innerHTML+data[i].data.authors+" <a href=\""+data[i].data.url+"\">"+data[i].data.title+"</a>, p. "+data[i].data.pages+".<br><br>";
         }
       }
     }
